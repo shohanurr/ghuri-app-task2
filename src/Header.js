@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import './Header.css'
 
 export default function Header() {
   return (
@@ -74,6 +75,10 @@ export default function Header() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
+      <div className='herosection'>
+        <img src='assets/images/Untitled-1.png' alt='hero image' />
+      </div>
     </div>
   )
 }
