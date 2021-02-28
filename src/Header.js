@@ -77,7 +77,8 @@ export default function Header() {
       </Navbar>
 
       <div className='herosection'>
-        <img src='assets/images/Untitled-1.png' alt='hero image' />
+        <img src='assets/images/Untitled-1.png' alt='hero image'
+        style= {align-Item: right} />
       </div>
     </div>
   )
