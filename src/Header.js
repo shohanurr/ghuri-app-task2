@@ -75,10 +75,11 @@ export default function Header() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-
-      <div className='herosection'>
-        <img src='assets/images/Untitled-1.png' alt='hero image'
-        style= {align-Item: right} />
+      <div className='herosection col-5'>
+        <img src='assets/images/ghuri.png' alt='hero image' />
+      </div>
+      <div className='herosection col-7'>
+        <img src='assets/images/Untitled-1.png' alt='hero image' />
       </div>
     </div>
   )
